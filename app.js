@@ -44,7 +44,7 @@ app.use((error,req, res, next) => {
 });
 
 mongoose
- .connect('mongodb+srv://rooban:k1igTBy6FvqteQsD@cluster0.fpufl.mongodb.net/mern?retryWrites=true&w=majority')
+ .connect('mongodb+sq0.fpufl.mongodb.net/mern?retryWrites=true&w=majority')
  .then(() => {
     console.log("Connected to database!");
      app.listen(5000);
